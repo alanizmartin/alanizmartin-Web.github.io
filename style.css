@@ -57,3 +57,25 @@ body {
     background-color: rgb(27, 42, 80);
     color:aquamarine;
 }
+
+.content{
+    display: flex;
+    background-color: rgb(27, 42, 80);
+    margin: 30px;
+    padding-left: 10px;
+    margin-right:50%;
+    padding-bottom: 10px;
+    border: 5px #154360 solid;
+}
+
+.profile img{
+    margin-top: 10px;
+    border-radius: 100rem;
+    margin-bottom: -5px;
+    border: 7px #154360 solid;
+}
+
+.content .aboutme h2{
+    padding-top: 5px;
+    padding-left: 10px;
+}

@@ -114,3 +114,18 @@ body {
     font-size: 1.4rem;
     height: 427px;
 }
+
+footer{
+    text-align: center;
+    background-color:rgb(27, 42, 80);
+    width: 100%;
+    border-top: 5px #154360 solid;
+    position: absolute;
+    bottom: 0;
+}
+
+.contacto{
+    width: fit-content;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}

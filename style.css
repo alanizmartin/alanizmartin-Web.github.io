@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden; 
+  position: relative;
+  min-height: 100vh;
+}
+
+.inicio{
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    background-color: #191c32;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    padding: 2em;
+}
+  
+.brn{
+    margin-top: -7px;
+}
+  
+.brn span{
+    color:#154360;
+}
+  
+.menu{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    padding-right: 30px;
+}
+  
+.menu li {
+    list-style: none;
+  
+}
+.menu a{
+    color:#fff;
+    text-decoration: none;
+    border-radius: .5rem;
+    padding: 15px;
+    transition: ease-in .3s;
+}
+  
+.menu a:hover {
+    background-color: rgb(27, 42, 80);
+    color:aquamarine;
+}
+
+.content{
+    display: flex;
+    background-color: rgb(27, 42, 80);
+    margin: 30px;
+    padding-left: 10px;
+    margin-right:50%;
+    padding-bottom: 10px;
+    border: 5px #154360 solid;
+}
+
+.profile img{
+    margin-top: 10px;
+    border-radius: 100rem;
+    margin-bottom: -5px;
+    border: 7px #154360 solid;
+}
+
+.content .aboutme h2{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.content .aboutme div{
+    padding:10px;
+    font-size: 1.2rem;
+}
+
+.experience{
+    background-color: rgb(27, 42, 80);
+    margin: 30px;
+    margin-right:50%;
+    padding-bottom: 20px;
+    border: 5px #154360 solid;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.exp-txt{
+    padding-bottom: 10px;
+}
+
+#ccc {
+    text-align: center;
+    border: 5px #154360 solid;
+    background: rgb(27, 42, 80);
+}
+
+.contac {
+    margin: -29.5% 20% 5% 65%;
+}
+
+.contac .aaa{
+    width: 450px;
+    font-size: 1.4rem;
+    height: 427px;
+}
+
+footer{
+    text-align: center;
+    background-color:rgb(27, 42, 80);
+    width: 100%;
+    border-top: 5px #154360 solid;
+    position: absolute;
+    bottom: 0;
+}
+
+.contacto{
+    width: fit-content;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}

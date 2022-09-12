@@ -79,3 +79,8 @@ body {
     padding-top: 5px;
     padding-left: 10px;
 }
+
+.content .aboutme div{
+    padding:10px;
+    font-size: 1.2rem;
+}

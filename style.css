@@ -1,3 +1,4 @@
+/* Estilos generales */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
 
 * {
@@ -13,119 +14,130 @@ body {
   min-height: 100vh;
 }
 
-.inicio{
-    width: 100vw;
-    height: 100vh;
-    color: #fff;
-    background-color: #191c32;
+.inicio {
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  background-color: #191c32;
 }
 
-.navbar{
-    display:flex;
-    justify-content:space-between;
-    padding: 2em;
+/* Estilos de la barra de navegación */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
 }
-  
-.brn{
-    margin-top: -7px;
+
+/* Estilos del logo */
+.brn {
+  margin-top: 7px;
 }
-  
-.brn span{
-    color:#154360;
+
+.brn span {
+  color: #154360;
 }
-  
-.menu{
-    display: flex;
-    width: 30%;
-    justify-content: space-around;
-    padding-right: 30px;
+
+/* Estilos del menú de navegación */
+.menu {
+  display: flex;
 }
-  
+
 .menu li {
-    list-style: none;
-  
+  list-style: none;
 }
-.menu a{
-    color:#fff;
-    text-decoration: none;
-    border-radius: .5rem;
-    padding: 15px;
-    transition: ease-in .3s;
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  border-radius: .5rem;
+  padding: 10px;
+  transition: ease-in .3s;
 }
-  
+
 .menu a:hover {
-    background-color: rgb(27, 42, 80);
-    color:aquamarine;
+  background-color: rgb(27, 42, 80);
+  color: aquamarine;
 }
 
-.content{
+/* Estilos de contenido */
+.content {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: rgb(27, 42, 80);
     margin: 30px;
-    padding-left: 10px;
-    margin-right:50%;
-    padding-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 20px;
+    padding-right: 30px;
     border: 5px #154360 solid;
 }
 
-.profile img{
-    margin-top: 10px;
-    border-radius: 100rem;
-    margin-bottom: -5px;
-    border: 7px #154360 solid;
+/* Estilos de la imagen de perfil */
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
 }
 
-.content .aboutme h2{
-    padding-top: 5px;
-    padding-left: 10px;
+.profile img {
+  width: 180px; 
+  height: 180px;
+  border-radius: 50%;
+  border: 7px #154360 solid;
 }
 
-.content .aboutme div{
-    padding:10px;
-    font-size: 1.2rem;
+/* Estilos de texto */
+.content .aboutme h2 {
+  padding-top: 5px;
+  padding-left: 10px;
 }
 
-.experience{
-    background-color: rgb(27, 42, 80);
-    margin: 30px;
-    margin-right:50%;
-    padding-bottom: 20px;
-    border: 5px #154360 solid;
-    text-align: center;
-    padding-top: 10px;
+.content .aboutme div {
+  padding: 10px;
+  font-size: 1.2rem;
 }
 
-.exp-txt{
-    padding-bottom: 10px;
+/* Estilos de experiencia */
+.experience {
+  background-color: rgb(27, 42, 80);
+  margin-left:50px;
+  margin-right:50px;
+  padding-bottom: 20px;
+  border: 5px #154360 solid;
+  text-align: center;
+  padding-top: 10px;
 }
 
-#ccc {
-    text-align: center;
-    border: 5px #154360 solid;
-    background: rgb(27, 42, 80);
+.exp-txt {
+  padding-bottom: 10px;
 }
 
-.contac {
-    margin: -29.5% 20% 5% 65%;
+.exp img {
+  width: 90px;
+  height: 90px;
+  margin-right: 20px;
 }
 
-.contac .aaa{
-    width: 450px;
-    font-size: 1.4rem;
-    height: 427px;
+/* Estilos del footer */
+footer {
+  text-align: center;
+  background-color: rgb(27, 42, 80);
+  width: 100%;
+  border-top: 5px #154360 solid;
+  position: absolute;
+  bottom: 0;
 }
 
-footer{
-    text-align: center;
-    background-color:rgb(27, 42, 80);
-    width: 100%;
-    border-top: 5px #154360 solid;
-    position: absolute;
-    bottom: 0;
+.contacto {
+
+  width: fit-content;
+  padding-bottom: 10px;
+  margin: 0 auto;
 }
 
-.contacto{
-    width: fit-content;
-    padding-bottom: 10px;
-    margin: 0 auto;
+.contacto img {
+  width: 40px;
+  height: 40px;
 }
